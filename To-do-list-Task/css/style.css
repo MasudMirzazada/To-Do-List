@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-to-do-list {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.continer {
+    width: 330px;
+    border: solid black 2px;
+    border-radius: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-part-list{
+    background-color: rgb(232, 232, 10);
+    height: 40px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.Todo-part-list {
+    width: 200px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
+
+.sort_img {
+    width: 23px;
+    height: 13px;
+}
+
+.input_text_area-list {
+    position: relative;
+}
+
+.add_text {
+    width: 232px;
+    height: 42px;
+    padding-right: 53px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+.remove_text {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    font-size: 18px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 21px;
+    position: relative;
+    width: 105px;
+    height: 38px;
+    padding-left: 27px;
+    margin-bottom: 5px;
+    background-color: rgb(82, 8, 151);
+    color: white;
+}
+
+.plus {
+    position: absolute;
+    right: 63px;
+    top: -3px;
+}
+
+.sorting {
+    position: relative;
+    width: 100%;
+    height: 30px;
+} 
+.src {
+    
+    right: 40px;
+    border: none;
+    background: transparent;
+    bottom: 10px;
+    position: absolute;
+    display: inline;
+    z-index: 10; 
+}
+
+.ul {
+    width: 100%;
+}
+
+.add_li_to_ul {
+    width: 100%;
+}
+
+.reset_button{
+    width: 110px;
+    height: 40px;
+    border-radius: 19px;
+    margin-bottom: 6px;
+    background-color: rgb(4, 68, 96);
+    color: white;
+}
+
+.search-part-list {
+    position: relative;
+}
+
+.search_area_list {
+    width: 230px;
+    height: 38px;
+    padding-right: 54px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.search_text_part{
+    position: absolute;
+    right: 40px;
+    top: 11px;
+    font-size: 19px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
